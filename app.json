@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "OpenGov",
+    "slug": "opengov-mobile",
+    "version": "1.1.6",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "accessibilityLabel": "Welcome to OpenGov App. An introduction screen with the OpenGov logo and app details."
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/bb21dec0-6048-4631-9113-fee0460a4816"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "2.0.9",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.OpenGOV.app"
+    },
+    "android": {
+      "versionCode": 39,
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "app.opengovmobile.App"
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bb21dec0-6048-4631-9113-fee0460a4816"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
